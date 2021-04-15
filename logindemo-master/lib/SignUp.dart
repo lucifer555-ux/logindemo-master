@@ -25,7 +25,7 @@ class SignUp extends StatefulWidget {
   @override
   _SignUpState createState() => _SignUpState();
 }
-
+final myController = TextEditingController();
 class _SignUpState extends State<SignUp> {
   @override
   Widget build(BuildContext context) {
@@ -89,6 +89,7 @@ class _SignUpState extends State<SignUp> {
               child: TextField(
                 decoration: InputDecoration(
                     border: OutlineInputBorder(),
+                   // fillColor: Color(blue),
                     labelText: 'Designation ',
                     hintText: 'Enter your Designation  '),
                 onChanged: (value) {

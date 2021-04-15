@@ -6,6 +6,10 @@ class SignIn extends StatefulWidget {
 }
 
 class _SignInState extends State<SignIn> {
+    //final String email;
+  //final String password;
+
+  //-SignIn(this.email, this.password)
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -16,6 +20,7 @@ class _SignInState extends State<SignIn> {
         child: Container(
           height: 150,
           width: 300,
+          
           decoration: BoxDecoration(
               color: Colors.blue, borderRadius: BorderRadius.circular(5)),
           child: TextButton(
@@ -23,12 +28,14 @@ class _SignInState extends State<SignIn> {
               Navigator.pop(context);
             },
             child: Text(
-              'Congragulations your account has been created',
+              'Congragulations......!!!! your account has been created successfully',
               style: TextStyle(color: Colors.white, fontSize: 25),
+              
             ),
           ),
         ),
       ),
+      
     );
   }
 }
