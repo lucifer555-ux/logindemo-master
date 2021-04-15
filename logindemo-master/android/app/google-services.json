@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "880035040092",
+    "project_id": "nav630login",
+    "storage_bucket": "nav630login.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880035040092:android:2809001db426c72bdc8f99",
+        "android_client_info": {
+          "package_name": "com.yogita.logindemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880035040092-br8fog8ch03ho6k14kec58r5qap7ukbu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6fZQHQZcSBW9mtkM1WUbZo7l15q0ruqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "880035040092-br8fog8ch03ho6k14kec58r5qap7ukbu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
