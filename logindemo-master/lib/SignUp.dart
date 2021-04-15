@@ -138,7 +138,7 @@ class _SignUpState extends State<SignUp> {
               width: 250,
               decoration: BoxDecoration(
                   color: Colors.blue, borderRadius: BorderRadius.circular(20)),
-              child: FlatButton(
+              child: TextButton(
                 onPressed: () {
                   FirebaseFirestore.instance.collection('users').add({
                     'name': name,
@@ -146,7 +146,8 @@ class _SignUpState extends State<SignUp> {
                     'desg': desg,
                     'email': email,
                     'pswd': pswd,
-                  }).whenComplete(() => null);
+                  })
+                  .whenComplete(() => null);
                   Navigator.push(
                       context, MaterialPageRoute(builder: (_) => SignIn()));
                 },
@@ -156,6 +157,7 @@ class _SignUpState extends State<SignUp> {
                 ),
               ),
             ),
+            //
             SizedBox(
               height: 130,
             ),

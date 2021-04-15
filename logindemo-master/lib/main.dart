@@ -107,7 +107,7 @@ class _LoginDemoState extends State<LoginDemo> {
                 style: TextStyle(color: Colors.white.withOpacity(0.8)),
               ),
             ),
-            FlatButton(
+            TextButton(
               onPressed: () {},
               child: Text(
                 'Forgot Password',
@@ -119,7 +119,7 @@ class _LoginDemoState extends State<LoginDemo> {
               width: 250,
               decoration: BoxDecoration(
                   color: Colors.blue, borderRadius: BorderRadius.circular(20)),
-              child: FlatButton(
+              child: TextButton(
                 onPressed: () {
                   Navigator.push(
                     

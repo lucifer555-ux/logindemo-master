@@ -18,7 +18,7 @@ class _SignInState extends State<SignIn> {
           width: 300,
           decoration: BoxDecoration(
               color: Colors.blue, borderRadius: BorderRadius.circular(5)),
-          child: FlatButton(
+          child: TextButton(
             onPressed: () {
               Navigator.pop(context);
             },
